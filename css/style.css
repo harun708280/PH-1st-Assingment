@@ -17,7 +17,7 @@
     height: 602px;
     width: 100%;
     
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(/images/Hero-bg.png);
     display: flex;
     margin-bottom: 70px;
     
@@ -244,4 +244,109 @@
     
     
     
+}
+/* Target */
+.target-conteinar{
+    height: 460px;
+    width: 90%;
+    
+    margin: 0 auto;
+    margin-top: 121px;
+}
+.target-text{
+    height: 113px;
+    width: 946px;
+    margin: 0 auto;
+    
+}
+.target-text h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 26px;
+    font-weight: 800;
+    text-align: center;
+}
+.target-text p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: center;
+
+
+}
+
+.target-program{
+    width: 1140px;
+   height: 299px;
+   
+   margin: 0 auto;
+   margin-top:46px ;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+}
+
+
+
+.target-html{
+    width: 364px;
+    height: 299px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+
+   background: rgba(255, 76, 30, 0.05);
+
+    
+}
+
+.target-cs{
+    width: 364px;
+    height: 299px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.target-js{
+    width: 364px;
+    height: 299px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+
+   background: rgba(255, 76, 30, 0.05);
+}
+
+.target-position{
+    width: 284px;
+    height: 219px;
+}
+.target-position h4{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 800;
+    
+} 
+.target-position p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.target-position h6{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
 }
