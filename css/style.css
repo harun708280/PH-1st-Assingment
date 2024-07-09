@@ -19,6 +19,7 @@
     
     background-image: url(/assets/Hero-bg.png);
     display: flex;
+    margin-bottom: 70px;
     
 }
 
@@ -61,4 +62,122 @@
     font-weight: 600;
     border: none;
     
+}
+
+/* Information */
+
+.information{
+    height: 1293px;
+    width: 90%;
+    
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.information-title{
+    height: 113px;
+    width: 80%;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-title h1{
+    color: rgb(13, 19, 33);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.information-title p{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+.information-mainbody{
+    height: 1072px;
+    width: 80%;
+    
+    margin: 0 auto;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-information{
+    height: 240px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: black;
+    display: flex;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    
+    
+}
+
+.fist-information-text, .second-information-text, .thired-information-text{
+    height: 219px;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+.first-information ,.second-information-text,.thired-information h3{
+    color: rgba(13, 19, 33, 0.7);
+    
+    font-size: 20px;
+    font-weight: 700;
+}
+.fist-information-text,.second-information-text,.thired-information  p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 16px;
+}
+
+#info-btn{
+    width: 171px;
+    height: 47px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.second-information{
+    height: 240px;
+    width: 90%;
+    margin: 0 auto;
+   
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    display: flex;
+}
+.thired-information{
+    height: 240px;
+    width: 90%;
+    margin: 0 auto;
+   
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    display: flex;
 }
