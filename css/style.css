@@ -1,0 +1,64 @@
+/* Main Text Font  */
+.azeret-mono {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    
+}
+
+/* MAin Marzin Padding Zero */
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* Main Bennar */
+.bennar-conteinar{
+    height: 602px;
+    width: 100%;
+    
+    background-image: url(/assets/Hero-bg.png);
+    display: flex;
+    
+}
+
+.bennar-contein{
+    width: 998px;
+    height: 502px;
+    
+    margin: 0 auto;
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bennar-contein h2{
+    color: rgb(13, 19, 33);
+    
+    font-size: 38px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.bennar-contein p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+.bennar-button{
+    width: 208px;
+    height: 66px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    
+}
