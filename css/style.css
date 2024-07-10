@@ -166,6 +166,7 @@
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
 
 }
 
@@ -360,6 +361,10 @@
     font-weight: 700;
 }
 
+.lernmore-link{
+     
+    text-decoration: none;
+}
 /* Suport Section */
 
 .support-conteinar{
