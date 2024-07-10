@@ -67,7 +67,7 @@
 /* Information */
 
 .information{
-    height: 1203px;
+    height: 1295px;
     width: 90%;
     
     margin: 0 auto;
@@ -78,11 +78,12 @@
     height: 113px;
     width: 80%;
     margin: 0 auto;
-    
+    padding-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
     
 }
 
@@ -100,6 +101,7 @@
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+    
     
 }
 
@@ -171,10 +173,10 @@
     height: 240px;
     width: 90%;
     margin: 0 auto;
-   
+    box-shadow: black;
+    display: flex;
     border-radius: 16px;
     background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-    display: flex;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
 }
 .thired-information{
@@ -247,11 +249,12 @@
 }
 /* Target */
 .target-conteinar{
-    height: 460px;
+    height: auto;
     width: 90%;
     
     margin: 0 auto;
     margin-top: 121px;
+    padding-bottom: 50px;
 }
 .target-text{
     height: 113px;
@@ -278,12 +281,14 @@
 }
 
 .target-program{
-   width: 1140px;
-   height: 299px;
+   width: 100% ;
+   max-width: 1240px;
+   height: auto;
    
    margin: 0 auto;
    margin-top:46px ;
    display: grid;
+   gap: 50px;
    grid-template-columns: repeat(3,1fr);
 }
 
@@ -297,8 +302,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 16px;
-
-   background: rgba(255, 76, 30, 0.05);
+    background: rgba(255, 76, 30, 0.05);
+    padding-bottom: 20px;
 
     
 }
@@ -312,6 +317,7 @@
     align-items: center;
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
+    padding-bottom: 20px;
 }
 
 .target-js{
@@ -320,8 +326,10 @@
     
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     border-radius: 16px;
+    padding-bottom: 20px;
 
    background: rgba(255, 76, 30, 0.05);
 }
@@ -329,6 +337,7 @@
 .target-position{
     width: 284px;
     height: 219px;
+    
 }
 .target-position h4{
     color: rgb(13, 19, 33);
